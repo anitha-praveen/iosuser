@@ -1,0 +1,6 @@
+framework module Pods_Roda {
+  umbrella header "Pods-Roda-umbrella.h"
+
+  export *
+  module * { export * }
+}

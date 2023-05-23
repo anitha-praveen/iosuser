@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>824273214716-vce04o1aqakehbfnmarglri3edku60u5.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.824273214716-vce04o1aqakehbfnmarglri3edku60u5</string>
+	<key>API_KEY</key>
+	<string>AIzaSyC4tLiq22uqzuEsCyuGoU1WccKLC8eiGwk</string>
+	<key>GCM_SENDER_ID</key>
+	<string>824273214716</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.nplus.rodauser</string>
+	<key>PROJECT_ID</key>
+	<string>roda-f7fb4</string>
+	<key>STORAGE_BUCKET</key>
+	<string>roda-f7fb4.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:824273214716:ios:37509db494c91ff26fcb79</string>
+	<key>DATABASE_URL</key>
+	<string>https://roda-f7fb4-default-rtdb.firebaseio.com</string>
+</dict>
+</plist>

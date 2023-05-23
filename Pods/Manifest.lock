@@ -1,0 +1,272 @@
+PODS:
+  - Alamofire (4.8.2)
+  - AWSCognito (2.19.1):
+    - AWSCore (= 2.19.1)
+  - AWSCore (2.19.1)
+  - AWSS3 (2.19.1):
+    - AWSCore (= 2.19.1)
+  - DSGradientProgressView (1.0.1)
+  - Firebase/Analytics (8.13.0):
+    - Firebase/Core
+  - Firebase/Auth (8.13.0):
+    - Firebase/CoreOnly
+    - FirebaseAuth (~> 8.13.0)
+  - Firebase/Core (8.13.0):
+    - Firebase/CoreOnly
+    - FirebaseAnalytics (~> 8.13.0)
+  - Firebase/CoreOnly (8.13.0):
+    - FirebaseCore (= 8.13.0)
+  - Firebase/Crashlytics (8.13.0):
+    - Firebase/CoreOnly
+    - FirebaseCrashlytics (~> 8.13.0)
+  - Firebase/Database (8.13.0):
+    - Firebase/CoreOnly
+    - FirebaseDatabase (~> 8.13.0)
+  - Firebase/Messaging (8.13.0):
+    - Firebase/CoreOnly
+    - FirebaseMessaging (~> 8.13.0)
+  - FirebaseAnalytics (8.13.0):
+    - FirebaseAnalytics/AdIdSupport (= 8.13.0)
+    - FirebaseCore (~> 8.0)
+    - FirebaseInstallations (~> 8.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.7)
+    - GoogleUtilities/MethodSwizzler (~> 7.7)
+    - GoogleUtilities/Network (~> 7.7)
+    - "GoogleUtilities/NSData+zlib (~> 7.7)"
+    - nanopb (~> 2.30908.0)
+  - FirebaseAnalytics/AdIdSupport (8.13.0):
+    - FirebaseCore (~> 8.0)
+    - FirebaseInstallations (~> 8.0)
+    - GoogleAppMeasurement (= 8.13.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.7)
+    - GoogleUtilities/MethodSwizzler (~> 7.7)
+    - GoogleUtilities/Network (~> 7.7)
+    - "GoogleUtilities/NSData+zlib (~> 7.7)"
+    - nanopb (~> 2.30908.0)
+  - FirebaseAuth (8.13.0):
+    - FirebaseCore (~> 8.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.7)
+    - GoogleUtilities/Environment (~> 7.7)
+    - GTMSessionFetcher/Core (~> 1.5)
+  - FirebaseCore (8.13.0):
+    - FirebaseCoreDiagnostics (~> 8.0)
+    - GoogleUtilities/Environment (~> 7.7)
+    - GoogleUtilities/Logger (~> 7.7)
+  - FirebaseCoreDiagnostics (8.13.0):
+    - GoogleDataTransport (~> 9.1)
+    - GoogleUtilities/Environment (~> 7.7)
+    - GoogleUtilities/Logger (~> 7.7)
+    - nanopb (~> 2.30908.0)
+  - FirebaseCrashlytics (8.13.0):
+    - FirebaseCore (~> 8.0)
+    - FirebaseInstallations (~> 8.0)
+    - GoogleDataTransport (~> 9.1)
+    - GoogleUtilities/Environment (~> 7.7)
+    - nanopb (~> 2.30908.0)
+    - PromisesObjC (< 3.0, >= 1.2)
+  - FirebaseDatabase (8.13.0):
+    - FirebaseCore (~> 8.0)
+    - leveldb-library (~> 1.22)
+  - FirebaseInstallations (8.13.0):
+    - FirebaseCore (~> 8.0)
+    - GoogleUtilities/Environment (~> 7.7)
+    - GoogleUtilities/UserDefaults (~> 7.7)
+    - PromisesObjC (< 3.0, >= 1.2)
+  - FirebaseMessaging (8.13.0):
+    - FirebaseCore (~> 8.0)
+    - FirebaseInstallations (~> 8.0)
+    - GoogleDataTransport (~> 9.1)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.7)
+    - GoogleUtilities/Environment (~> 7.7)
+    - GoogleUtilities/Reachability (~> 7.7)
+    - GoogleUtilities/UserDefaults (~> 7.7)
+    - nanopb (~> 2.30908.0)
+  - GeoFire (4.3.0):
+    - GeoFire/Database (= 4.3.0)
+  - GeoFire/Database (4.3.0):
+    - Firebase/Database (< 9.0.0, > 7.0.0)
+    - GeoFire/Utils
+  - GeoFire/Utils (4.3.0)
+  - GoogleAppMeasurement (8.13.0):
+    - GoogleAppMeasurement/AdIdSupport (= 8.13.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.7)
+    - GoogleUtilities/MethodSwizzler (~> 7.7)
+    - GoogleUtilities/Network (~> 7.7)
+    - "GoogleUtilities/NSData+zlib (~> 7.7)"
+    - nanopb (~> 2.30908.0)
+  - GoogleAppMeasurement/AdIdSupport (8.13.0):
+    - GoogleAppMeasurement/WithoutAdIdSupport (= 8.13.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.7)
+    - GoogleUtilities/MethodSwizzler (~> 7.7)
+    - GoogleUtilities/Network (~> 7.7)
+    - "GoogleUtilities/NSData+zlib (~> 7.7)"
+    - nanopb (~> 2.30908.0)
+  - GoogleAppMeasurement/WithoutAdIdSupport (8.13.0):
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.7)
+    - GoogleUtilities/MethodSwizzler (~> 7.7)
+    - GoogleUtilities/Network (~> 7.7)
+    - "GoogleUtilities/NSData+zlib (~> 7.7)"
+    - nanopb (~> 2.30908.0)
+  - GoogleDataTransport (9.1.2):
+    - GoogleUtilities/Environment (~> 7.2)
+    - nanopb (~> 2.30908.0)
+    - PromisesObjC (< 3.0, >= 1.2)
+  - GoogleMaps (6.0.1):
+    - GoogleMaps/Maps (= 6.0.1)
+  - GoogleMaps/Base (6.0.1)
+  - GoogleMaps/Maps (6.0.1):
+    - GoogleMaps/Base
+  - GooglePlaces (6.0.0)
+  - GoogleUtilities/AppDelegateSwizzler (7.7.0):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (7.7.0):
+    - PromisesObjC (< 3.0, >= 1.2)
+  - GoogleUtilities/Logger (7.7.0):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/MethodSwizzler (7.7.0):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/Network (7.7.0):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (7.7.0)"
+  - GoogleUtilities/Reachability (7.7.0):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/UserDefaults (7.7.0):
+    - GoogleUtilities/Logger
+  - GTMSessionFetcher/Core (1.7.0)
+  - HCSStarRatingView (1.5)
+  - IQKeyboardManagerSwift (6.5.9)
+  - JVFloatLabeledTextField (1.2.2)
+  - Kingfisher (7.2.0)
+  - leveldb-library (1.22.1)
+  - MarqueeLabel (4.3.0)
+  - MaterialShowcase (0.8.0)
+  - MTSlideToOpen (1.5.1)
+  - nanopb (2.30908.0):
+    - nanopb/decode (= 2.30908.0)
+    - nanopb/encode (= 2.30908.0)
+  - nanopb/decode (2.30908.0)
+  - nanopb/encode (2.30908.0)
+  - NVActivityIndicatorView (4.7.0):
+    - NVActivityIndicatorView/Presenter (= 4.7.0)
+  - NVActivityIndicatorView/Presenter (4.7.0)
+  - PromisesObjC (2.0.0)
+  - razorpay-pod (1.2.8)
+  - Socket.IO-Client-Swift (16.0.1):
+    - Starscream (~> 4.0)
+  - Starscream (4.0.4)
+  - SwiftyGif (5.4.3)
+  - SWRevealViewController (2.3.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.8.2)
+  - AWSCognito
+  - AWSCore
+  - AWSS3
+  - DSGradientProgressView
+  - Firebase/Analytics
+  - Firebase/Auth
+  - Firebase/Crashlytics
+  - Firebase/Database
+  - Firebase/Messaging
+  - GeoFire (~> 4.0)
+  - GoogleMaps
+  - GooglePlaces
+  - HCSStarRatingView (~> 1.5)
+  - IQKeyboardManagerSwift
+  - JVFloatLabeledTextField
+  - Kingfisher
+  - MarqueeLabel
+  - MaterialShowcase
+  - MTSlideToOpen
+  - NVActivityIndicatorView (~> 4.7.0)
+  - razorpay-pod
+  - Socket.IO-Client-Swift (~> 16.0.1)
+  - SwiftyGif
+  - SWRevealViewController
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AWSCognito
+    - AWSCore
+    - AWSS3
+    - DSGradientProgressView
+    - Firebase
+    - FirebaseAnalytics
+    - FirebaseAuth
+    - FirebaseCore
+    - FirebaseCoreDiagnostics
+    - FirebaseCrashlytics
+    - FirebaseDatabase
+    - FirebaseInstallations
+    - FirebaseMessaging
+    - GeoFire
+    - GoogleAppMeasurement
+    - GoogleDataTransport
+    - GoogleMaps
+    - GooglePlaces
+    - GoogleUtilities
+    - GTMSessionFetcher
+    - HCSStarRatingView
+    - IQKeyboardManagerSwift
+    - JVFloatLabeledTextField
+    - Kingfisher
+    - leveldb-library
+    - MarqueeLabel
+    - MaterialShowcase
+    - MTSlideToOpen
+    - nanopb
+    - NVActivityIndicatorView
+    - PromisesObjC
+    - razorpay-pod
+    - Socket.IO-Client-Swift
+    - Starscream
+    - SwiftyGif
+    - SWRevealViewController
+
+SPEC CHECKSUMS:
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  AWSCognito: f50de600804941d083af37a7568905f31a774727
+  AWSCore: 55c154ae27efc5c98bdc30a0eeea5a35d10a2ab5
+  AWSS3: 2272253b098d07803af8dd20ce6ce7302bcffb47
+  DSGradientProgressView: 256d85dc3a92b429ace38617ceb459faec42bb41
+  Firebase: ee9b1d9b1801371e29f5591eda89eb5a314ab599
+  FirebaseAnalytics: 2be3cc52ac310759f28861aec9d459c851370cdb
+  FirebaseAuth: ee43cf9474641c673a3a215ac92ab99e5630620c
+  FirebaseCore: c7e3fa30492e50ccdeef280bf0d5584af38da3e1
+  FirebaseCoreDiagnostics: c2836d254a8f0bbb4121ff18f2c2ea39d118fd08
+  FirebaseCrashlytics: 3b6eafb7e508c26d37ff7a256d0f74406f7e47bd
+  FirebaseDatabase: c610ab55bcb033d5eb3d17acba57301068a28497
+  FirebaseInstallations: 60edbf7e11d91ae4c751d26c200dfd037099abe0
+  FirebaseMessaging: 8cddb4c478663611d58c03b353e10dd0ed6468f6
+  GeoFire: c34927b5c81ab614f611c79aa8d074cfa9780f07
+  GoogleAppMeasurement: 135c2fbcf5038e0f37dbce04fa641a702fc275d1
+  GoogleDataTransport: 629c20a4d363167143f30ea78320d5a7eb8bd940
+  GoogleMaps: c213fc2334b7374144cede914da779b99be0ab74
+  GooglePlaces: c97d96ae68594acb64035c9ca9f26fbfc1d23af1
+  GoogleUtilities: e0913149f6b0625b553d70dae12b49fc62914fd1
+  GTMSessionFetcher: 43748f93435c2aa068b1cbe39655aaf600652e91
+  HCSStarRatingView: 1d18f79654735514cd6f00e6d90e38cb6320dc31
+  IQKeyboardManagerSwift: 6e839c575c4aa1078d58a596e41244e77abe918f
+  JVFloatLabeledTextField: df48598472ee015701d509f43e59492a0d4ca208
+  Kingfisher: 3ac0b75b155cabc0e544877d1a4deea29feece92
+  leveldb-library: 50c7b45cbd7bf543c81a468fe557a16ae3db8729
+  MarqueeLabel: 02f5ac8fd6877c94564556cb93fa86c70c08baeb
+  MaterialShowcase: 0c0cef713a6504cd2a76a5d047bcb2787944a318
+  MTSlideToOpen: dedc9abf1e377fef40544b84e5590d4981055030
+  nanopb: a0ba3315591a9ae0a16a309ee504766e90db0c96
+  NVActivityIndicatorView: b19ddab2576f805cbe0fb2306cba3476e09a1dea
+  PromisesObjC: 68159ce6952d93e17b2dfe273b8c40907db5ba58
+  razorpay-pod: 3ec6fe82e7d5927013cfbbef81a880188c86b077
+  Socket.IO-Client-Swift: c116d6dc9fd6be9c259bacfe143f8725bce7d79e
+  Starscream: 5178aed56b316f13fa3bc55694e583d35dd414d9
+  SwiftyGif: 6c3eafd0ce693cad58bb63d2b2fb9bacb8552780
+  SWRevealViewController: 6d3fd97f70112fd7cef9de14df4260eacce4c63a
+
+PODFILE CHECKSUM: 1559bac843c852b6ded24c122c7cb4226e553d17
+
+COCOAPODS: 1.11.2
